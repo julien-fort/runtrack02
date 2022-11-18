@@ -6,12 +6,10 @@
     <link href="formulaire.css" rel="stylesheet" type="text/css">
 </head>
 <body>
- <form method="post" class="form-example">
-        <div class="form-example">
+ <form method="post">
     <label for="name">Enter your name: </label>
     <input type="text" name="nom" id="nom">
     <input type="submit" value="Subscribe!">
-        </div>
  </form>
 </body>
 </html>

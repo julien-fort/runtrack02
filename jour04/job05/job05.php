@@ -16,7 +16,7 @@
  </body>
 </html>
 <?php
-if (isset($_POST['login'])&& isset ($_POST ['password']))
+if (isset($_POST['login'])&& isset($_POST ['password']))
 if ($_POST['login'] == "jhon" && $_POST['password'] =="rambo"){
     echo 'C’est pas ma guerre';
 }

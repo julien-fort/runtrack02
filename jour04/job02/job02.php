@@ -21,14 +21,12 @@ foreach ($_GET as $var => $value){
     <link href="formulaire.css" rel="stylesheet" type="text/css">
 </head>
 <body>
- <form method="get" class="form-example">
-        <div class="form-example">
-    <label for="name">Enter your name: </label>
+ <form method="get">
+     <label for="name">Enter your name: </label>
     <input type="text" name="nom" id="nom"><br>
     <label for="lastname">Enter your lastname: </label>
     <input type="text" name="lastname" id="lastname">
     <input type="submit" value="Subscribe!">
-        </div>
  </form>
 </body>
 </html>
