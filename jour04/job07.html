@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="fr-FR">
+<head>
+    <meta charset="utf-8">
+    <title>formulaire</title>
+    <link href="formulaire.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+ <form method="post">
+    <label for="largeur">Entrer votre largeur: </label>
+    <input type="text" name="largeur"><br>
+    <label for="hauteur">Entrer votre hauteur: </label>
+    <input type="text" name="hauteur"><br>
+    <input type="submit" value="Subscribe!">
+ </form>
+ </body>
+</html>
+hauteur = int(input("veuillez entrer la hauteur :" ))
+largeur = int(input("veuillez entrez la largeur :" ))
+
+for i in range (hauteur):
+    if i == 0 :
+        print(side + separateur * largeur + side)
+    elif i == hauteur-1:
+        print(side + separateur * largeur + side)
+    else:
+        print (side + " " * largeur + side)
