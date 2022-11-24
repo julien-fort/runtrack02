@@ -1,0 +1,1 @@
+SELECT avg(CAPACITE) FROM `salle`;
